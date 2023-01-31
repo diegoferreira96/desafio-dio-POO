@@ -53,7 +53,7 @@ public class Bootcamp {
     public void setConteudo(Set<Conteudo> conteudo) {
         this.conteudo = conteudo;
     }
-
+    
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

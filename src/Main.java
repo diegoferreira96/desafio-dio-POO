@@ -77,5 +77,19 @@ public class Main {
         System.out.println("Conteudos Inscritos Antonio " + devAntonio.getConteudosInscritos());
         System.out.println("Conteudos Concluidos Antonio " + devAntonio.getConteudosConcluidos());
         System.out.println("XP: " + devAntonio.calcularTotalXP());
+
+        System.out.println("------------------");
+
+        Dev devAngelo = new Dev();
+        devAngelo.setNome("Angelo Garcia");
+        devAngelo.inscreverBootcamp(bootcamp);
+        System.out.println("Conteudos Inscritos Angelo " + devAngelo.getConteudosInscritos());
+        devAngelo.progredir();
+
+        System.out.println("-----");
+
+        System.out.println("Conteudos Inscritos Angelo " + devAngelo.getConteudosInscritos());
+        System.out.println("Conteudos Concluidos Angelo " + devAngelo.getConteudosConcluidos());
+        System.out.println("XP: " + devAngelo.calcularTotalXP());
     }
 }
